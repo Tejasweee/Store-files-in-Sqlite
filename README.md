@@ -3,9 +3,9 @@ This Python 3 script allows to store files and images to store in a sqlite datab
 
 # Using the script:
 
-- When the script is first time run using 'python filedata.py' it creates a folder project by the name 'FileDatabase' which again contains two folders 'FilesHere' and 'RetrievedFiles' and also an empty sqlite database by the name filedb.db
+- When the script is first time run using 'python filedata.py' it creates a folder project by the name 'FileDatabase' which again contains folders 'FilesHere' and 'RetrievedFiles' and also an empty sqlite database by the name filedb.db
 
-- Files and Images which are supposed to be stored in the sqlite database should be copied and placed inside the folder 'FilesHere'. Now when the script is run again files and images which are inside the 'FilesHere' folder are automatically stored inside the database.
+- Files and Images which are supposed to be stored in the sqlite database should be copied and placed inside the folder 'FilesHere'. Now, when the script is run again files and images which are inside the 'FilesHere' folder are automatically stored inside the database.
 
 - When those stored files are retrieved they all are placed inside 'RetrievedFiles' folder. Retrieving only doesn't delete the data present inside the database. Delete command can be provided from within the script if files are to be deleted.
 
